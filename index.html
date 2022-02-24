@@ -3,90 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <title>Nikita CV</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <table cellspacing="15">
-        <tr>
-    <td> <img src="avatar.jpg" alt="Моя фотокарточка" width="200"> </td>
-    <td><h1>Добровольский Никита Викторович</h1>
-        <p><strong>19 лет</strong></p>
-        <p><em>Не женат</em></p>
-    </td>
-</tr>
+    <div class="container">
+        <div class="info">
+            <img src="avatar.jpg" alt="Моя фотокарточка" class="avatar"> 
+            <div class="info-text">
+            <h1>Добровольский Никита Викторович</h1>
+            <p><strong>19 лет</strong></p>
+            <p>Не женат</p>
 
-    </table>
+            <h4>Мои социальные сети:</h4>
+        
+             <a href="https://instagram.com/nik_dobrovolskiy" target="_blank"> Instagram</a>
+             |
+             <a href="https://t.me/the8hokage" target="_blank"> Telegram</a>
+            </div>
+        </div>
+
+        
+        <h2>Приветсвую!</h2>
+        <p>Короче, Гнидка, я вам написал и в благородство играть не буду: возьмешь меня на работу — и мы в расчете.</p>
+        <p>Что на счет меня: я основатель нечего и всего одновременно - <em>мыслитель, философ и просто хороший человек.</em></p>
+        <p>Люблю жену, путешествия, кошек, <strong>программировать</strong>, мотоциклы, машины, море, горы и кошек.</p>
+
+     
     
+<div class="card bg-yellow" >
+    <h2 >Мои хобби:</h2>
+    <ol class="list">
+        <li>Сталкинг</li>
+        <li>Машины</li>
+        <li>Путешествия</li>
+        <li>Спорт</li>
+        <li>Программирование</li>
+    </ol>
+</div>
+   
+<div class="card bg-green" >
+    <h2>Образование:</h2>
+        <table class="table" >
+            <tr>
+            <td>МБОУ СОШ №264</td>
+            <td>Главарь школьников</td>
+            <td>2009-2018</td>
+            </tr>
+            <tr>
+                <td>Мтк</td>
+                <td>Электромеханник</td>
+                <td>2018-2022</td>
+            </tr>
+            <tr>
+                <td>Youtube, сайты</td>
+                <td>Front-end developer</td>
+                <td>2020-н.в.</td>
+
+            </tr>
+        </table>
+</div>
     
-    
-    <h1>Приветсвую, Гнидки!</h1>
-    <p>Короче, Гнидка, я вам написал и в благородство играть не буду: возьмешь меня на работу — и мы в расчете.</p>
-    <p>Что на счет меня: я основатель нечего и всего одновременно - <em>мыслитель, философ и просто хороший человек.</em></p>
-    <p>Люблю жену, путешествия, кошек, <strong>программировать</strong>, мотоциклы, машины, море, горы и кошек.</p>
-<hr>
-<h2>Способы со мной связаться и налюбоваться:</h2>
-<ul>
-    <li> <a href="https://instagram.com/nik_dobrovolskiy" target="_blank"> Instagram</a></li>
-    <li> <a href="https://t.me/the8hokage" target="_blank"> Telegram</a></li>
-</ul>
-<hr>
-<h2>Мои хобби, хотя вернее увлечения, еще вернее досуг:</h2>
-<ol>
-    <li>Сталкинг</li>
-    <li>Машины</li>
-    <li>Путешествия</li>
-    <li>Спорт</li>
-    <li>Программирование</li>
-</ol>
-<hr>
-<h2>Образование:</h2>
-<table border="2" cellpadding="7" >
-    <tr>
-        <th>Учебное учереждение</th>
-        <th>Специальность</th>
-        <th>Года</th>
+<div class="card bg-red" >
+    <h2>Мой сенсей</h2>
+    <p>Обучался программированию по практическим урокам у этого чудесного <a href="https://www.youtube.com/channel/UCg8ss4xW9jASrqWGP30jXiw">человека</a>.</p>
+    <ul class="link-list">
+        <li>
+            <a href="https://www.youtube.com/channel/UCg8ss4xW9jASrqWGP30jXiw" target="_blanc"> Мастер Йода</a>
+        </li>
+        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank">Мотивация</a></li>
+    </ul>
+</div>
 
-    </tr>
-    <tr>
-       <td>МБОУ СОШ №264</td>
-       <td>Главарь школьников</td>
-       <td>2009-2018</td>
-    </tr>
-    <tr>
-        <td>Мтк</td>
-        <td>Электромеханник</td>
-        <td>2018-2022</td>
-    </tr>
-    <tr>
-        <td>Youtube, сайты</td>
-        <td>Front-end developer</td>
-        <td>2020-н.в.</td>
+<div class="contact">
+        <h2>Напишите мне ;)</h2>
+        <form action="/">
+            <div class="row">
+                <!-- <div class="radio">
+                    <p>Ваш пол:</p>
+                <input type="radio" id="male1" name="male">
+                <label for="male">Мужской</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="male2" name="male">
+                <label for="male">Женский</label>
+            </div> -->
 
-    </tr>
-</table>
-<hr>
-<h2>Важно!!!</h2>
-<p>Если я слишком уж сильно для вас говнокодер, то вот ссылка на моего <a href="youtube.html" target="_blank"> сенсея!</a> Все вопросы к нему!!!</p>
-<a href="youtube.html" target="_blank"></a>
-<hr>
-<h2>Напишите мне ;)</h2>
-<form action="/">
-    <label for="name">Ваше прозвоще:</label>
-    <input type="text" id="name" 
-    placeholder="Введите погоняло...">
-<br>
-    <label for="email">Ваш почтовый голубь:</label>
-    <input type="email" id="email" 
-    placeholder="Введите голубя с собакой...">
-<br>
-    <label for="number">Ваш возвраст(важно знать с кем имею честь):</label>
-    <input type="number" id="number">
-<br>
-    <label for="text">Ваш отзыв:</label>
-<br>
-    <textarea id="text" cols="50" rows="5"></textarea>
-<br>
-    <input type="submit" value="Написать ему...">
+            <div class="form-group">
+            <label for="name">Ваше прозвоще:</label>
+            <input type="text" id="name" 
+            placeholder="Введите погоняло...">
+        </div>
+        <div class="form-group">
+            <label for="email">Ваш почтовый голубь:</label>
+            <input type="email" id="email" 
+            placeholder="Введите голубя с собакой...">
+        </div>
+        <div class="form-group">
+            <label for="number">Ваш возвраст:</label>
+            <input type="number" id="number">
+        </div>
+    </div>
+        <div class="form-group">
+            <label for="text">Ваш отзыв:</label>
+            <textarea id="text" cols="50" rows="5"></textarea>
+        </div>
+            
+        <input class="btn" type="submit" value="Написать ему...">
+        </form>
+    </div> 
+    <div class="position">
+        <div class="box"></div>
+    </div>
+    </div>
 
-</form>
+   
+
+    <div style="margin-bottom: 500px">
+    </div>
 </body>
 </html>
